@@ -1,0 +1,34 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cdc7f5;
+}
+
+.btn_modern{
+    font-weight:900;
+    font-size: 18pt;
+    color: #4a9e78;
+    background-color: #4b43df;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 12px;
+    border-bottom: 5px solid #321b97 ;
+    cursor: pointer;
+    transition: color 0.4s, background-color 0.4s, border-bottom 0.4s, box-shadow 0.4s, transform 0.4s ;
+
+}
+
+.btn_modern:hover{
+    color: #4b43df;
+    background-color: #4a9e78;
+    border-bottom: 5px solid #2a644a ;
+    box-shadow: 0 0 5px #2a644a ;
+    transform: translateY(5px);
+
+}
+
+
